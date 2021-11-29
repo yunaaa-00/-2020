@@ -1,0 +1,65 @@
+/*초기화*/
+*{margin: 0; padding: 0;}
+#wrap{width: 1220px; margin: 0 auto;} 
+li{list-style: none;}
+
+/*로고*/
+#headerin img{width: 250px; height: 100px; float: left;}
+#headerin h1{ float: left; overflow: hidden; margin-left: 25px;}
+
+/*검색버튼*/
+input:-ms-input-placeholder {color : #a8a8a8;}
+input::-webkit-input-placeholder{color:#a8a8a8;}
+input::-moz-placeholder {color: #a8a8a8;}
+
+input{font-size: 16px; width: 330px; padding: 10px; border: 0px; outline: none; float: left; }
+
+#searcharea{height: 41px; width: 450px; border: 1px solid #033079; background-color: #ffffff; float: right;  margin-top: 44px;}
+#searcharea button{width: 55px; height: 100%; border: 0; background-color: #033079; outline: none; float: right; color: rgba(255, 255, 255, 0.6);}
+
+/*메뉴*/
+#main-menu, #sub-menu1, #sub-menu2 {margin: 0; padding: 0; list-style-type: none; }
+
+#main-menu{float: left; height: 50px;  width: 1220px; position: relative;  box-sizing: border-box; margin: 5px 180px 15px 0px ; background: #033079;}
+#main-menu > li{  float: left; margin: 9px 5px 0 75px;}
+#main-menu > li > a {display: block; padding: 7.5px 66px; text-align: center; font-size: 1em; color: #f1f1f1; text-align: center; 
+                     text-decoration: none; letter-spacing: 0.05em; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); } 
+
+#main-menu > li:hover #sub-menu1 {opacity: 1; visibility: visible;}
+#main-menu > li:hover #sub-menu2 {opacity: 1; visibility: visible;}
+
+#sub-menu1 > li {padding: 7px 55px; border-bottom: 1px solid rgba(0,0,0,0.15); text-align: center;}
+#sub-menu1 > li > a {color: rgba(255, 255, 255, 0.6); text-decoration: none; font-size: 0.85rem; }
+#sub-menu2 > li {padding: 7px 55px; border-bottom: 1px solid rgba(0,0,0,0.15);  text-align: center;}
+#sub-menu2 > li > a {color: rgba(255, 255, 255, 0.6); text-decoration: none; font-size: 0.85rem;}
+#sub-menu1 {position: absolute; background: #033079; opacity: 0; visibility: hidden; letter-spacing: 0.05em; padding: 6px 18px; z-index: 1;}
+#sub-menu2 {position: absolute; background: #033079; opacity: 0; visibility: hidden; letter-spacing: 0.05em; padding: 6px 18px; z-index: 1;}
+
+/*sidebar*/
+.sidebar{margin: 0px; padding: 10px; float: left; width:200px; height: 1100px; background: rgb(193, 202, 211); margin-right: 50px; margin-right: 80px;}
+.sidebar a{color: #1a3664; font-size: 1.2em; }
+.sidebar > ul > h2{margin: 0 auto; text-align: center; margin-top:15px;}
+.sidebar li{ text-align: center; margin: 0 auto; padding: 20px;}
+.sidebar li > a {text-decoration: none; }
+
+/*article*/
+#article{padding-top: 120px;}
+#article img{width: 130px; height: 180px; float: left; margin: 50px 50px 0 100px;}
+
+/*article txt1*/
+#article h2{float: left; margin-left: 20px; padding-top: 50px;}
+#article .txt1 { float: left; padding: 20px;} 
+#article .txt1 .a { padding-top: 10px; margin-left: 280px; font-weight: bold; }
+
+/*article txt2*/
+#article .txt2 {padding-top: 350px;}
+#article .txt2 .b{font-size: 0.85em; margin: 12px; }
+
+/*article txt3*/
+#article .txt3 { float: right; font-size: 0.3em; margin-top: 245px; margin-right: 18px;}
+
+/*footer*/
+#footer {margin: 20px;  }
+.end{margin-top: 400px; border-top: 1px solid #a8a8a8; }
+.end li{float: left; font-weight: bold; font-size: 0.8em; margin-right: 13px; color: #1a3664; margin-top: 18px;}
+.cpRight {margin-top: 3px; color: #1a3664; margin-bottom: 30px; font-size: 0.8em; float: left;}
